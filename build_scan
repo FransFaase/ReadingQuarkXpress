@@ -1,0 +1,7 @@
+#!/bin/sh
+
+make cls2cpp
+cls2cpp CDatabase
+cls2cpp CQXDoc
+gcc -g -Wall scan.cpp -o scan.exe
+
